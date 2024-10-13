@@ -1,11 +1,5 @@
 # ApacheTomcat_Monitoring_Plugin
 As we know, not all linux would automatically switches on the apache tomcat service. Since Apache Tomcat is crucial for a server hosting WebApp, this plugin is useful to monitor Apache Tomcat status every minute and logs it's information for analysis as needed.
-Sure! Here’s a sample `README.md` that outlines the steps to set up and use your Tomcat monitoring script from GitHub.
-
-```markdown
-# Tomcat Monitoring Script
-
-This script monitors the Apache Tomcat process and logs its status, CPU, and memory usage. It also sends email notifications if Tomcat is not running or if resource usage exceeds specified thresholds.
 
 ## Features
 
@@ -28,13 +22,13 @@ This script monitors the Apache Tomcat process and logs its status, CPU, and mem
    Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your_username/your_repository.git
-   cd your_repository
+   git clone https://github.com/hariravendran/ApacheTomcat_Monitoring_Plugin.git
+   cd ApacheTomcat_Monitoring_Plugin
    ```
 
 2. **Make the Script Executable**
 
-   Navigate to the directory where the script is located and make it executable:
+   Navigate to the directory where the script(apache_plugin.sh) is located and make it executable:
 
    ```bash
    chmod +x monitor_tomcat.sh
@@ -96,13 +90,8 @@ This script monitors the Apache Tomcat process and logs its status, CPU, and mem
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
 - Thanks to the contributors and maintainers of the libraries used in this script.
-```
-
-### Instructions for Use
-- Replace `your_username` and `your_repository` in the cloning step with your actual GitHub username and repository name.
-- Adjust any other instructions or sections as necessary to fit your specific setup or additional features you might want to highlight.
